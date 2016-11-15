@@ -1,5 +1,6 @@
 var github = require('../githubClient.js');
-var owner = 'buhe';
+var conf = require('../conf.js');
+var owner = conf.owner;
 var develops = require('../develops.js');
 
 

@@ -1,7 +1,11 @@
 var http = require('http')
 var createHandler = require('github-webhook-handler')
-var handler = createHandler({ path: '/webhook', secret: '123456' })
+var conf = require('./conf.js');
+
+var handler = createHandler({ path: '/webhook', secret: conf.secret })
 var merge_master_dev = require('./handle/merge_master_dev.js');
+
+
 
 http.createServer(function (req, res) {
   handler(req, res, function (err) {
