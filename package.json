@@ -1,0 +1,23 @@
+{
+  "name": "q-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buhe/q-bot.git"
+  },
+  "author": "buhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buhe/q-bot/issues"
+  },
+  "homepage": "https://github.com/buhe/q-bot#readme",
+  "dependencies": {
+    "github": "^6.0.4",
+    "github-webhook-handler": "^0.6.0"
+  }
+}
