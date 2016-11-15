@@ -8,7 +8,7 @@
     secret:'Webhook secret'
 }
 ```
-##develops
+##develops.js
 ```
 ['dev-branch1','dev-branch2']
 ```
