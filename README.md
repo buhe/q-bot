@@ -30,6 +30,7 @@ Just run.
 ```
 node index.js
 ```
+默认端口是 7777 , API Path 是 IP:7777/webhook ,服务需要暴漏到公网去。如果手边没有域名和公网去，可以使用 https://ngrok.com/ 进行测试 。
 
 ##EN
 
