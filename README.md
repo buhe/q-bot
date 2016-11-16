@@ -8,6 +8,7 @@
 例如：接受了这个 pr :https://github.com/buhe/dev-fork/pull/10 ，自动创建并合并了 https://github.com/buhe/dev-fork/pull/11
 
 ##怎么使用？
+安装依赖
 ```
 npm install
 ```
@@ -24,6 +25,10 @@ npm install
 ###develops.js
 ```
 ['dev-branch1','dev-branch2'] \\所有你需要自动 merge 的开发分支
+```
+Just run.
+```
+node index.js
 ```
 
 ##EN
